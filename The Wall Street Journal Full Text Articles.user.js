@@ -93,6 +93,8 @@ function fetch(params) {
             }).find('.imageCredit').addClass('wsj-article-credit').prepend(' ');
             $body.find('.media-object').addClass('media-object-image');
             $body.find('.media-object img').css('height', 'auto');
+            //Joe
+            $body.find(".wsj-ad").hide();
         }, 3000);
     }).catch(error => {
         console.error(arguments);
