@@ -95,6 +95,8 @@ function fetch(params) {
             $body.find('.media-object img').css('height', 'auto');
             //Joe
             $body.find(".wsj-ad").hide();
+            $body.find(".newsletter-inset").hide();
+            
         }, 3000);
     }).catch(error => {
         console.error(arguments);
